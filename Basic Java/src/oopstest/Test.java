@@ -2,8 +2,13 @@ package oopstest;
 
 public class Test {
 
-public void display(){
+protected void display(){
 		System.out.println("hello!!");
 	}
+
+public void call()
+{
+	display();
+}
 
 }
